@@ -7,7 +7,7 @@ export default function CardList({countries}) {
         ?
             <div className="wrapper">
             {
-                countries.map((country) => <Card className="card" country={country} />)
+                countries.map((country, idx) => <Card className="card" country={country} key={idx} />)
             }
             </div>
         :
