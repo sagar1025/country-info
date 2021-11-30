@@ -1,4 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution
+# REST Countries API with color theme switcher solution
 
 This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -12,8 +12,6 @@ This is a solution to the [REST Countries API with color theme switcher challeng
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,15 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sagar1025/country-info](https://github.com/sagar1025/country-info)
+- Live Site URL: [https://country-info-snowy.vercel.app](https://country-info-snowy.vercel.app/)
 
 ## My process
 
@@ -57,4 +55,4 @@ Users should be able to:
 ## Author
 
 - Website - [Sagar Patel](https://github.com/sagar1025)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sagar1025)
+- Frontend Mentor - [@sagar1025](https://www.frontendmentor.io/profile/sagar1025)
