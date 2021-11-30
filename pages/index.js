@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import Layout, {siteTitle} from '../components/layout'
-import Link from 'next/link'
 import Search from '../components/search'
 import Regions from '../components/regions'
 import CardList from '../components/cardlist'
@@ -52,34 +51,8 @@ function Home({ countries }) {
   )
 }
 
+//load all countries on loage load
 export async function getStaticProps(){
-//   const countries = 
-//   [
-//     {
-//         "name": {
-//             "common": "Japan",
-//             "official": "Japan",
-//         },
-//         "tld": [
-//             ".jp",
-//             ".みんな"
-//         ],
-//         "capital": [
-//             "Tokyo"
-//         ],
-//         "region": "Asia",
-//         "subregion": "Eastern Asia",
-//         "landlocked": false,
-//         "area": 377930.0,
-//         "flag": "🇯🇵",
-//         "population": 125836021,
-//         "flags": {
-//             "png": "https://flagcdn.com/w320/jp.png",
-//             "svg": "https://flagcdn.com/jp.svg"
-//         }
-//     }
-// ]
-
   const data = await fetch('https://restcountries.com/v3.1/all');
   const countries = await data.json();
 
